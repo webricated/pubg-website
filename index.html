@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Animated Transparent Login Form Using CSS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <div class="login">
+                <h3>Login Form</h3>
+            </div>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <div class="btn" id="loginBtn">Log In</div>
+        </div>
+    </div>
+
+    <script>
+        // Get the login button element
+        const loginButton = document.getElementById('loginBtn');
+
+        // Add a click event listener to the login button
+        loginButton.addEventListener('click', function() {
+            // Redirect to home.html
+            window.location.href = 'home.html';
+        });
+    </script>
+</body>
+</html>
